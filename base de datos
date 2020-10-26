@@ -1,0 +1,20 @@
+
+
+create database registro
+
+CREATE TABLE `usuario` (
+  `Id` int(11) NOT NULL,
+  `DNI` int(11) NOT NULL,
+  `Nombres` varchar(50) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+INSERT INTO `usuario` (`Id`, `DNI`, `Nombres`) VALUES
+(3, 300-854-3, 'Gerardo Enrique'),
+(4, 40042424-2, 'Alma Azucena'),
+(6, 6042424-0, 'Fernando Alberto Climaco Oliva'),
+(7, 702727-4, 'Orlando Medrano Ortiz'),
+(8, 80424240-7, 'Miguel Antonio Martinez'),
+(1, 100427-7, 'Luis Alfredo sosa'),
+(200, 272727777-5, 'Oscar Ramiro Ramirez'),
+ 
+COMMIT;
